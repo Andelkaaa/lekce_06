@@ -34,19 +34,16 @@ body {
 
 /* ---------------------------------------------------- */
 
-/* 1. align-items 
+/* 1. align-items */
 
 .kontejner {
-    flex-direction: row;
-    height: 800px;
-    align-items: flex-end;
+    flex-direction: column;
 }
 
 .polozka {
-    width: 100px;
+    flex-basis: 150px;
 }
 
-*/
 
 /* 2. align-self 
 
@@ -54,7 +51,12 @@ body {
     align-self: flex-start;
 }
 
+.ctyrka {
+    align-self:flex-end;
+}
 */
+
+
 
 /* 3. flex-basis (row/column) 
 
